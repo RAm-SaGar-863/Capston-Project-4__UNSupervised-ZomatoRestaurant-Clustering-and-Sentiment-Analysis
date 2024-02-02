@@ -178,6 +178,6 @@ Summary
 
 • SVM and XGB both performed well, and we can choose any one of them. 
 
-• SVM and XGB are having 0.921 and 0.981 of testing accuracy, respectively. 
+• SVM and XGB are having 0.88 and 0.89 of testing accuracy, respectively. 
 
 • We got best cluster as 5 in K-Means and Principal Component Analysis (PCA).
