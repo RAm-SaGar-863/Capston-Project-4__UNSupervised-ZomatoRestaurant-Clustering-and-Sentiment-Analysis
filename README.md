@@ -126,8 +126,6 @@ Out of 9,954 reviews:
 
 **Models used**:
 
-• Naive Bayes 
-
 • Random Forest Classifier 
 
 • XGBoost Classifier
@@ -135,8 +133,6 @@ Out of 9,954 reviews:
 • SVM
 
 **Summary**
-
-• Naive Bayes has test accuracy of 0.836 and train accuracy of 0.825
 
 • Random Forest has test accuracy of 0.813 and train accuracy of 0.811
 
