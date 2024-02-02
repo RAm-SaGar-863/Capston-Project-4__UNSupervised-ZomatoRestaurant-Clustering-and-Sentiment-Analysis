@@ -1,22 +1,30 @@
-# Capston-Project-4__UNSupervised-ZomatoRestaurant-Clustering-and-Sentiment-Analysis
+# Zomato Restaurants Clustering and Sentiment Analysis
 UNSupervised Machine Learning Project
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ![cp4 final project image](https://github.com/RAm-SaGar-863/Capston-Project-4__UNSupervised-ZomatoRestaurant-Clustering-and-Sentiment-Analysis/assets/128234583/363dd45e-942e-40b5-9663-466605fea0b9)
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Abstract
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 India is quite famous for its diverse multi cuisine available in a large number of restaurants and hotel resorts, which is reminiscent of unity in diversity. Zomato is an Indian restaurant aggregator and food delivery start-up which provides information, menus and user-reviews of restaurants, and also has food delivery options from partner restaurants in select cities. The Project focuses on Customers and Company, you have to analyze the sentiments of the reviews given by the customer in the data and made some useful conclusion in the form of Visualizations. Also, cluster the zomato restaurants into different segments. This could help in clustering the restaurants into segments.
 
 ## Introduction
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 Online food-delivery platforms are expanding choice and convenience, allowing customers to order from a wide array of restaurants with a single tap of their mobile phone. The online food delivery market is no longer the underdog but has evolved into a champion. Having a food ordering marketplace platform was considered a state-of-the-art innovation in the early 2000s but today the segment has expanded to different demographics across the globe. Thanks to the increasing number of online users and vendors, the delivery providers have a sustainable business model. These businesses have immense opportunities to expand their services to a new geographical area and cater to new demographics.
 ## Problem Statement
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 The Project focuses on Customers and Company, you have to analyze the sentiments of the reviews given by the customer in the data and make some useful conclusions in the form of Visualizations. Also, cluster the zomato restaurants into different segments. The data is visualized as it becomes easy to analyze data at instant. The Analysis also solve some of the business cases that can directly help the customers finding the best restaurant in their locality and for the company to grow up and work on the fields they are currently lagging in.
 This could help in clustering the restaurants into segments. Also, the data has valuable information around cuisine and costing which can be used in cost vs. benefit analysis
 
 ## Data Summary
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 
 ### Attribute Information
-
+---
 **Zomato Restaurant names and Metadata**
 
 Name : Name of Restaurants
@@ -49,6 +57,7 @@ Time: Date and Time of Review
 Pictures : No. of pictures posted with review
 
 ## Data Cleaning and Pre-Processing
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 The raw data received in the data set might not be directly suitable for analysis due to presence of unwanted data like, duplicate values, null values, outliers etc. We need to handle them first before we proceed with further analysis.
 
@@ -59,6 +68,7 @@ The raw data received in the data set might not be directly suitable for analysi
 **Feature Handling**: We can manipulate some of the features according to our requirements to draw required information from the data. For example, we have divided the “Time” column from “Zomato Restaurant Reviews” dataset to extract three more new features called, “year”, “month” and “hour” columns. Also, we have split the “MetaData” column into “Reviews” and “Followers”
 
 ##  EDA Summary:
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 • College Hyatt Gachibowli is most expensive restaurant with cost more than 2500. rupees
 
@@ -71,6 +81,7 @@ The raw data received in the data set might not be directly suitable for analysi
 • Maximum review and orders are coming between the time (12pm - 3pm) and (8pm - 11pm)
 
 ## Text Preprocessing 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 Data Preprocessing is the most essential step for any Machine Learning model. How well the raw data has been cleaned and preprocessed plays a major role in the performance of the model. Likewise in the case of NLP, the very first step is Text Processing.
 
@@ -102,6 +113,7 @@ The various preprocessing steps that are involved are:
 ● **Lemmatization**: This is the process of the grouping together of different forms of the same word and converting words into base or root form.
 
 ## Sentiment Analysis
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 Sentiment analysis (or opinion mining) is a natural language processing (NLP) technique used to determine whether data is positive, negative or neutral. Sentiment analysis is often performed on textual data to help businesses monitor brand and product sentiment in customer feedback, and understand customer needs. In this project we will try to see the sentiment of the review given by the customers.
 
@@ -123,6 +135,7 @@ Out of 9,954 reviews:
 
 
 ## Applying ML Models for Sentiment Prediction
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 **Models used**:
 
@@ -141,6 +154,7 @@ Out of 9,954 reviews:
 • SVM has test accuracy of 0.997 and train accuracy of 0.929
 
 ## Clustering
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 **K- Means Clustering**:
 
@@ -163,6 +177,7 @@ Summary
         •	In Cluster 4 North Indian, Chinese, and Italian
 
 ## Conclusions 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 • The most popular cuisines are the cuisines which most of the restaurants are willing to provide. 
 
